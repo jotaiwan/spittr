@@ -5,7 +5,6 @@ import java.util.List;
 import com.spittr.dto.Spittle;
 import org.springframework.stereotype.Repository;
 
-//@Repository
 public interface SpittleRepository {
 
   List<Spittle> findRecentSpittles();
